@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Team Page</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="font-title">The creative crew</h1>
+        <div class="description-page">
+            <h2 class="font-primary">Who we are</h2>
+            <p class="font-primary">We are team of creatively diverse.  driven.  innovative individuals working in various locations from the world.</p>
+        </div>
+    <div class="content-grid">
+        <div class="grid-team">
+            <div class="card-people">
+                <div class="content">
+                    <img src="./resources/photo1.png" alt="">
+                    <div class="font-title">Product owner</div>
+                </div>
+                <span class="font-primary">Bill Mahoney</span>
+            </div>
+            <div class="card-people">
+                <div class="content">
+                    <img src="./resources/photo2.png" alt="">
+                    <div class="font-title">Product owner</div>
+                </div>
+                <span class="font-primary">Bill Mahoney</span>
+            </div>
+            <div class="card-people">
+                <div class="content">
+                    <img src="./resources/photo3.png" alt="">
+                    <div class="font-title">Product owner</div>
+                </div>
+                <span class="font-primary">Bill Mahoney</span>
+            </div>
+            <div class="card-people">
+                <div class="content">
+                    <img src="./resources/photo4.png" alt="">
+                    <div class="font-title">Product owner</div>
+                </div>
+                <span class="font-primary">Bill Mahoney</span>
+            </div>
+            <div class="card-people">
+                <div class="content">
+                    <img src="./resources/photo6.png" alt="">
+                    <div class="font-title">Product owner</div>
+                </div>
+                <span class="font-primary">Bill Mahoney</span>
+            </div>
+            <div class="card-people">
+                <div class="content">
+                    <img src="./resources/photo5.png" alt="">
+                    <div class="font-title">Product owner</div>
+                </div>
+                <span class="font-primary">Bill Mahoney</span>
+            </div>
+        </div>
+    </div>
+    </div>
+    <span class="font-extra extra-color more">created by AKA1N3R- devChallenges.io</span>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script>
+        var elem = document.querySelector('.grid-team');
+        var msnry = new Masonry( elem, {
+            itemSelector: '.card-people',
+            columnWidth: 340
+        });
+    </script>
+</body>
+</html>
